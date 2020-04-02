@@ -1,6 +1,6 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This project is a replicate of the old version of apple's website webpage. It's built as a curriculum project for Microverse.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- stylelint/stickler
 
 ## Live Demo
 
