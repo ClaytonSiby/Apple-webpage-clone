@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/ClaytonSiby/Apple-webpage-clone/apple-clone/index.html)
 
 
 ## Getting Started
@@ -27,9 +27,9 @@ Additional description about the project and its features.
 
 👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/ClaytonSiby)
+- Twitter: [@twitterhandle](https://twitter.com/ClaytonSiby)
+- Linkedin: [linkedin](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
 
 
 ## 🤝 Contributing
