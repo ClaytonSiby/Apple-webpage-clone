@@ -23,9 +23,9 @@ Additional description about the project and its features.
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-## Authors
+## Author
 
-👤 **Author**
+👤 **Clayton Siby**
 
 - Github: [@githubhandle](https://github.com/ClaytonSiby)
 - Twitter: [@twitterhandle](https://twitter.com/ClaytonSiby)
