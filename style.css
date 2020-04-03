@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    background-image: url(./images/main_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: transparent;
+}
