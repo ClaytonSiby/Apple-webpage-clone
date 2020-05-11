@@ -10,10 +10,14 @@
         background-position-x: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 95vh;
+        height: 90vh;
     }
     
     .navbar {
+        border-bottom-left-radius: .5rem;
+        border-top-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        border-top-right-radius: .5rem;
         max-width: 73%;
         margin: auto auto;
         background: linear-gradient( rgb(109, 108, 108) 35%, rgb(44, 43, 43) 50%, rgb(48, 43, 43) 5%);
@@ -69,9 +73,24 @@
         font-size: 1.5rem;
     }
     
+    .descrip-text {
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .sm-descrip-text a {
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }
+    
     .descrip-text,
     .sm-descrip-text {
         color: #fff;
+    }
+    
+    .sm-descrip-text a:hover {
+        text-decoration: underline;
     }
     
     .main-page-text {
@@ -84,7 +103,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        height: 25rem;
+        height: 13rem;
     }
     
     .apple-img-1 {
@@ -92,6 +111,7 @@
         background-size: cover cover;
         background-repeat: no-repeat;
         width: 25%;
+        height: 100%;
     }
     
     .apple-img-2 {
@@ -99,6 +119,7 @@
         background-size: cover cover;
         background-repeat: no-repeat;
         width: 25%;
+        height: 100%;
     }
     
     .apple-img-3 {
@@ -106,6 +127,7 @@
         background-size: cover cover;
         background-repeat: no-repeat;
         width: 25%;
+        height: 100%;
     }
     
     .apple-img-4 {
@@ -113,4 +135,64 @@
         background-size: cover cover;
         background-repeat: no-repeat;
         width: 25%;
+        height: 100%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: .7rem;
+        font-family: 'Quicksand', sans-serif;
+        padding: .5rem 3rem 1rem 3rem;
+    }
+    
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 50%;
+    }
+    
+    .footer-left a {
+        text-decoration: none;
+    }
+    
+    .footer-left a:hover {
+        text-decoration: underline;
+    }
+    
+    .terms {
+        padding-right: .3rem;
+        border-right: 1px solid gray;
+    }
+    
+    .privacy {
+        padding-left: .3rem;
+    }
+    
+    .footer-right {
+        width: 50%;
+    }
+    
+    .footer-nav li {
+        float: left;
+    }
+    
+    .footer-nav li:not(:last-child) {
+        border-right: 1px solid gray;
+    }
+    
+    .footer-icon i {
+        color: red;
+    }
+    
+    .footer-nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 0 .4rem;
+    }
+    
+    .footer-nav li a:hover {
+        text-decoration: underline;
     }
