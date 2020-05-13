@@ -1,198 +1,220 @@
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    
-    main {
-        font-family: sans-serif;
-        background-image: url(./images/main_background.jpg);
-        background-position-y: -620px;
-        background-position-x: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 90vh;
-    }
-    
-    .navbar {
-        border-bottom-left-radius: .5rem;
-        border-top-left-radius: .5rem;
-        border-bottom-right-radius: .5rem;
-        border-top-right-radius: .5rem;
-        max-width: 73%;
-        margin: auto auto;
-        background: linear-gradient( rgb(109, 108, 108) 35%, rgb(44, 43, 43) 50%, rgb(48, 43, 43) 5%);
-        position: relative;
-        top: 3rem;
-    }
-    
-    .navbar-nav {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-    }
-    
-    .nav-item {
-        float: left;
-    }
-    
-    .apple-icon {
-        display: block;
-        text-align: center;
-        padding: .5rem 2rem;
-        font-size: 1.3rem;
-        color: gray;
-        text-decoration: none;
-    }
-    
-    .nav-link {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: .5rem 1.5rem;
-        text-decoration: none;
-    }
-    
-    .border-right {
-        border-right: 1px solid rgb(44, 43, 43);
-    }
-    
-    .border-right:not(:first-child):hover {
-        background: rgb(44, 43, 43);
-    }
-    
-    .page-title {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 3.2rem;
-        color: #fff;
-    }
-    
-    .text-div {
-        margin-top: 2rem;
-        line-height: 2rem;
-        font-size: 1.5rem;
-    }
-    
-    .descrip-text {
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    .sm-descrip-text a {
-        font-family: 'Quicksand', sans-serif;
-        font-family: 'Dosis', sans-serif;
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    .descrip-text,
-    .sm-descrip-text {
-        color: #fff;
-    }
-    
-    .sm-descrip-text a:hover {
-        text-decoration: underline;
-    }
-    
-    .main-page-text {
-        position: relative;
-        top: 8rem;
-        text-align: center;
-    }
-    
-    .img-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        height: 13rem;
-    }
-    
-    .apple-img-1 {
-        background-image: url("./images/image1.jpg");
-        background-size: cover cover;
-        background-repeat: no-repeat;
-        width: 25%;
-        height: 100%;
-    }
-    
-    .apple-img-2 {
-        background-image: url("./images/image2.jpg");
-        background-size: cover cover;
-        background-repeat: no-repeat;
-        width: 25%;
-        height: 100%;
-    }
-    
-    .apple-img-3 {
-        background-image: url("images/image3.jpg");
-        background-size: cover cover;
-        background-repeat: no-repeat;
-        width: 25%;
-        height: 100%;
-    }
-    
-    .apple-img-4 {
-        background-image: url("images/image4.jpg");
-        background-size: cover cover;
-        background-repeat: no-repeat;
-        width: 25%;
-        height: 100%;
-    }
-    
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: .7rem;
-        font-family: 'Quicksand', sans-serif;
-        padding: .5rem 3rem 1rem 3rem;
-    }
-    
-    .footer-left {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        width: 50%;
-    }
-    
-    .footer-left a {
-        text-decoration: none;
-    }
-    
-    .footer-left a:hover {
-        text-decoration: underline;
-    }
-    
-    .terms {
-        padding-right: .3rem;
-        border-right: 1px solid gray;
-    }
-    
-    .privacy {
-        padding-left: .3rem;
-    }
-    
-    .footer-right {
-        width: 50%;
-    }
-    
-    .footer-nav li {
-        float: left;
-    }
-    
-    .footer-nav li:not(:last-child) {
-        border-right: 1px solid gray;
-    }
-    
-    .footer-icon i {
-        color: red;
-    }
-    
-    .footer-nav li a {
-        display: block;
-        text-decoration: none;
-        padding: 0 .4rem;
-    }
-    
-    .footer-nav li a:hover {
-        text-decoration: underline;
-    }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  font-family: sans-serif;
+  background-image: url(./images/main_background.jpg);
+  background-position-y: -620px;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.navbar {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  max-width: 73%;
+  margin: auto auto;
+  background: linear-gradient(
+    rgb(109, 108, 108) 35%,
+    rgb(44, 43, 43) 50%,
+    rgb(48, 43, 43) 5%
+  );
+  position: relative;
+  top: 3rem;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+  float: left;
+}
+
+.apple-icon {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  color: rgb(175, 170, 170);
+  text-decoration: none;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
+
+.border-right {
+  border-right: 1px solid rgb(44, 43, 43);
+}
+
+.border-right:not(:first-child):hover {
+  background: rgb(44, 43, 43);
+}
+
+#search {
+  background-image: url(./images/input_bg.PNG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100px;
+  height: 16px;
+  border: none;
+}
+
+.page-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.text-div {
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.descrip-text {
+  font-family: "Quicksand", sans-serif;
+}
+
+.sm-descrip-text a {
+  font-family: "Quicksand", sans-serif;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.descrip-text,
+.sm-descrip-text {
+  color: #fff;
+}
+
+.sm-descrip-text a:hover {
+  text-decoration: underline;
+}
+
+.main-page-text {
+  position: relative;
+  top: 8rem;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 13rem;
+}
+
+.apple-img-1 {
+  background-image: url("./images/image1.jpg");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+.apple-img-2 {
+  background-image: url("./images/image2.jpg");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+.apple-img-3 {
+  background-image: url("images/image3.jpg");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+.apple-img-4 {
+  background-image: url("images/image4.jpg");
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  font-family: "Quicksand", sans-serif;
+  padding: 0.5rem 3rem 1rem 3rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 50%;
+}
+
+.footer-link a,
+.privacy,
+.terms {
+  text-decoration: none;
+  color: rgb(9, 156, 241);
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.terms {
+  padding-right: 0.3rem;
+  color: rgb(9, 156, 241);
+  border-right: 1px solid gray;
+}
+
+.privacy {
+  padding-left: 0.3rem;
+  color: rgb(9, 156, 241);
+}
+
+.footer-right {
+  width: 50%;
+}
+
+.footer-nav li {
+  float: left;
+}
+.footer-nav a {
+  color: rgb(9, 156, 241);
+}
+.footer-nav li:not(:last-child) {
+  border-right: 1px solid gray;
+}
+
+.footer-icon i {
+  color: red;
+}
+
+.footer-nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 0.4rem;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
