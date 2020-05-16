@@ -18,7 +18,7 @@ main {
   border-top-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  max-width: 73%;
+  max-width: 65%;
   margin: auto auto;
   background: linear-gradient(
     rgb(109, 108, 108) 35%,
@@ -53,8 +53,13 @@ main {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.2rem;
   text-decoration: none;
+}
+
+#search {
+  padding-right: 0;
+  padding-right: 0;
 }
 
 .border-right {
@@ -65,17 +70,26 @@ main {
   background: rgb(44, 43, 43);
 }
 
-#search {
-  background-image: url(./images/input_bg.PNG);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align: center;
-  width: 100px;
-  height: 16px;
-  border: none;
+input[type="text"] {
+  background: linear-gradient(
+    rgb(109, 108, 108) 35%,
+    rgb(44, 43, 43) 50%,
+    rgb(48, 43, 43) 5%
+  );
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 90%;
+  height: 1.2rem;
 }
 
+.fa-search {
+  position: absolute;
+  right: 185px;
+  top: .9rem;
+  font-size: .8rem;
+}
 .page-title {
   font-family: "Montserrat", sans-serif;
   font-size: 3.2rem;
