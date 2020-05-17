@@ -20,11 +20,12 @@ main {
   border-top-right-radius: 0.5rem;
   max-width: 65%;
   margin: auto auto;
-  background: linear-gradient(
-    rgb(109, 108, 108) 35%,
-    rgb(44, 43, 43) 50%,
-    rgb(48, 43, 43) 5%
-  );
+  background:
+    linear-gradient(
+      rgb(109, 108, 108) 35%,
+      rgb(44, 43, 43) 50%,
+      rgb(48, 43, 43) 5%
+    );
   position: relative;
   top: 3rem;
 }
@@ -59,7 +60,6 @@ main {
 
 #search {
   padding-right: 0;
-  padding-right: 0;
 }
 
 .border-right {
@@ -71,11 +71,12 @@ main {
 }
 
 input[type="text"] {
-  background: linear-gradient(
-    rgb(109, 108, 108) 35%,
-    rgb(44, 43, 43) 50%,
-    rgb(48, 43, 43) 5%
-  );
+  background:
+    linear-gradient(
+      rgb(109, 108, 108) 35%,
+      rgb(44, 43, 43) 50%,
+      rgb(48, 43, 43) 5%
+    );
   border: 1px solid rgb(190, 185, 185);
   border-radius: 6px;
   width: 90%;
@@ -85,9 +86,10 @@ input[type="text"] {
 .fa-search {
   position: absolute;
   right: 185px;
-  top: .9rem;
-  font-size: .8rem;
+  top: 0.9rem;
+  font-size: 0.8rem;
 }
+
 .page-title {
   font-family: "Montserrat", sans-serif;
   font-size: 3.2rem;
@@ -114,6 +116,21 @@ input[type="text"] {
 .descrip-text,
 .sm-descrip-text {
   color: #fff;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: rgb(9, 156, 241);
+}
+
+.footer-nav a {
+  color: rgb(9, 156, 241);
+}
+
+.footer-nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 0.4rem;
 }
 
 .sm-descrip-text a:hover {
@@ -181,7 +198,6 @@ footer {
   width: 50%;
 }
 
-.footer-link a,
 .privacy,
 .terms {
   text-decoration: none;
@@ -210,21 +226,13 @@ footer {
 .footer-nav li {
   float: left;
 }
-.footer-nav a {
-  color: rgb(9, 156, 241);
-}
+
 .footer-nav li:not(:last-child) {
   border-right: 1px solid gray;
 }
 
 .footer-icon i {
   color: red;
-}
-
-.footer-nav li a {
-  display: block;
-  text-decoration: none;
-  padding: 0 0.4rem;
 }
 
 .footer-nav li a:hover {
