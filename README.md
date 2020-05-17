@@ -1,6 +1,6 @@
 # Project Name
 
-> This project is a replicate of the old version of apple's website webpage. It's built as a curriculum project for Microverse.
+> This project is a replicate of the old version of apple's website webpage. It's built as a curriculum project for Microverse. The site is not responsive, it is just for design learning.
 
 ![screenshot](./app_screenshot.png)
 
