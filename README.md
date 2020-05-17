@@ -1,4 +1,4 @@
-# Project Name
+# Apple Clone Project
 
 > This project is a replicate of the old version of apple's website webpage. It's built as a curriculum project for Microverse. The site is not responsive, it is just for design learning.
 
@@ -16,20 +16,13 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://raw.githack.com/ClaytonSiby/Apple-webpage-clone/apple-clone/home.html)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 ## Author
 
 👤 **Clayton Siby**
 
-- Github: [@githubhandle](https://github.com/ClaytonSiby)
-- Twitter: [@twitterhandle](https://twitter.com/ClaytonSiby)
-- Linkedin: [linkedin](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
+- Github: [@ClaytonSiby](https://github.com/ClaytonSiby)
+- Twitter: [@ClaytonSiby](https://twitter.com/ClaytonSiby)
+- Linkedin: [Clayton Siby](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
 
 
 ## 🤝 Contributing
