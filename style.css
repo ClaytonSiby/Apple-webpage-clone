@@ -20,7 +20,7 @@ main {
   border-top-right-radius: 0.5rem;
   max-width: 65%;
   margin: auto auto;
-  background: linear-gradient(rgb(109, 108, 108) 35%,rgb(44, 43, 43) 50%,rgb(48, 43, 43) 5%);
+  background: linear-gradient(rgb(109, 108, 108) 35%, rgb(44, 43, 43) 50%, rgb(48, 43, 43) 5%);
   position: relative;
   top: 3rem;
 }
