@@ -76,10 +76,8 @@ input[type="text"] {
     rgb(44, 43, 43) 50%,
     rgb(48, 43, 43) 5%
   );
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border: 1px solid rgb(190, 185, 185);
+  border-radius: 6px;
   width: 90%;
   height: 1.2rem;
 }
