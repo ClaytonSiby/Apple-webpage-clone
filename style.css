@@ -65,17 +65,17 @@ main {
   background: rgb(44, 43, 43);
 }
 
+input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
 input[type="text"] {
-  background:
-    linear-gradient(
-      rgb(109, 108, 108) 35%,
-      rgb(44, 43, 43) 50%,
-      rgb(48, 43, 43) 5%
-    );
   border: 1px solid rgb(190, 185, 185);
   border-radius: 6px;
   width: 90%;
   height: 1.2rem;
+  color: rgb(48, 44, 44);
 }
 
 .fa-search {
@@ -83,6 +83,7 @@ input[type="text"] {
   right: 185px;
   top: 0.9rem;
   font-size: 0.8rem;
+  color: black;
 }
 
 .page-title {
