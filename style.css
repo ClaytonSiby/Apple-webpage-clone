@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
 }
-
 main {
   font-family: sans-serif;
   background-image: url(./images/main_background.jpg);
@@ -12,7 +11,6 @@ main {
   background-repeat: no-repeat;
   height: 90vh;
 }
-
 .navbar {
   border-bottom-left-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
@@ -24,18 +22,15 @@ main {
   position: relative;
   top: 3rem;
 }
-
 .navbar-nav {
   list-style-type: none;
- padding: 0;
- margin: 0;
- overflow: hidden;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
-
 .nav-item {
   float: left;
 }
-
 .apple-icon {
   display: block;
   text-align: center;
@@ -44,7 +39,6 @@ main {
   color: rgb(175, 170, 170);
   text-decoration: none;
 }
-
 .nav-link {
   display: block;
   color: white;
@@ -52,19 +46,15 @@ main {
   padding: 0.5rem 1.2rem;
   text-decoration: none;
 }
-
 #search {
   padding-right: 0;
 }
-
 .border-right {
   border-right: 1px solid rgb(44, 43, 43);
 }
-
 .border-right:not(:first-child):hover {
   background: rgb(44, 43, 43);
 }
-
 input[type="text"] {
   background:
     linear-gradient(
@@ -77,74 +67,61 @@ input[type="text"] {
   width: 90%;
   height: 1.2rem;
 }
-
 .fa-search {
   position: absolute;
   right: 185px;
   top: 0.9rem;
   font-size: 0.8rem;
 }
-
 .page-title {
   font-family: "Montserrat", sans-serif;
   font-size: 3.2rem;
   color: #fff;
 }
-
 .text-div {
   margin-top: 2rem;
   line-height: 2rem;
   font-size: 1.5rem;
 }
-
 .descrip-text {
   font-family: "Quicksand", sans-serif;
 }
-
 .sm-descrip-text a {
   font-family: "Quicksand", sans-serif;
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   color: #fff;
 }
-
 .descrip-text,
 .sm-descrip-text {
   color: #fff;
 }
-
 .footer-link a {
   text-decoration: none;
   color: rgb(9, 156, 241);
 }
-
 .footer-nav a {
   color: rgb(9, 156, 241);
 }
-
 .footer-nav li a {
   display: block;
   text-decoration: none;
   padding: 0 0.4rem;
 }
-
 .sm-descrip-text a:hover {
   text-decoration: underline;
 }
-
 .main-page-text {
   position: relative;
   top: 8rem;
   text-align: center;
 }
-
 .img-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   height: 13rem;
 }
-
 .apple-img-1 {
   background-image: url("./images/image1.jpg");
   background-size: cover cover;
@@ -152,7 +129,6 @@ input[type="text"] {
   width: 25%;
   height: 100%;
 }
-
 .apple-img-2 {
   background-image: url("./images/image2.jpg");
   background-size: cover cover;
@@ -160,7 +136,6 @@ input[type="text"] {
   width: 25%;
   height: 100%;
 }
-
 .apple-img-3 {
   background-image: url("images/image3.jpg");
   background-size: cover cover;
@@ -168,7 +143,6 @@ input[type="text"] {
   width: 25%;
   height: 100%;
 }
-
 .apple-img-4 {
   background-image: url("images/image4.jpg");
   background-size: cover cover;
@@ -176,7 +150,6 @@ input[type="text"] {
   width: 25%;
   height: 100%;
 }
-
 footer {
   display: flex;
   flex-direction: row;
@@ -185,51 +158,41 @@ footer {
   font-family: "Quicksand", sans-serif;
   padding: 0.5rem 3rem 1rem 3rem;
 }
-
 .footer-left {
   display: flex;
   flex-direction: column;
   align-items: end;
   width: 50%;
 }
-
 .privacy,
 .terms {
   text-decoration: none;
   color: rgb(9, 156, 241);
 }
-
 .footer-left a:hover {
   text-decoration: underline;
 }
-
 .terms {
   padding-right: 0.3rem;
   color: rgb(9, 156, 241);
   border-right: 1px solid gray;
 }
-
 .privacy {
   padding-left: 0.3rem;
   color: rgb(9, 156, 241);
 }
-
 .footer-right {
   width: 50%;
 }
-
 .footer-nav li {
   float: left;
 }
-
 .footer-nav li:not(:last-child) {
   border-right: 1px solid gray;
 }
-
 .footer-icon i {
   color: red;
 }
-
 .footer-nav li a:hover {
   text-decoration: underline;
 }
