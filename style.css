@@ -18,7 +18,7 @@ main {
   border-top-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  max-width: 54.3rem;
+  max-width: 60.3rem;
   margin: auto auto;
   background: linear-gradient(rgb(109, 108, 108) 35%, rgb(44, 43, 43) 50%, rgb(48, 43, 43) 5%);
   position: relative;
@@ -49,7 +49,7 @@ main {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1.65rem;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ main {
 input:focus {
   outline: none;
   background-color: #fff;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 20px;
 }
 
 input[type="text"] {
@@ -81,7 +81,7 @@ input[type="text"] {
 
 .fa-search {
   position: absolute;
-  right: 185px;
+  right: 180px;
   top: 0.9rem;
   font-size: 0.8rem;
   color: black;
