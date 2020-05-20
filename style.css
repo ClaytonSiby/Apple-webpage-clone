@@ -14,10 +14,7 @@ main {
 }
 
 .navbar {
-  border-bottom-left-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-radius: 0.5rem;
   max-width: 60.3rem;
   margin: auto auto;
   background: linear-gradient(rgb(109, 108, 108) 35%, rgb(44, 43, 43) 50%, rgb(48, 43, 43) 5%);
