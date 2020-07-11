@@ -1,6 +1,6 @@
 # Apple Clone Project
 
-> This project is a replicate of the old version of apple's website webpage. It's built as a curriculum project for Microverse. The site is not responsive, it is just for design learning.
+> This project is a replica of the old version of apple's webpage. It is inspired by Microverse.inc. The site is not responsive, it is just for design learning purposes.
 
 ![screenshot](images/app_screenshot.png)
 
